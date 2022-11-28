@@ -71,6 +71,7 @@ main {
   padding: 8px 24px;
   font-size: 1.25em;
   line-height: 1.5;
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
 }
 
 .indented-heading {
