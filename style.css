@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+  color: hsl(0deg, 0%, 0%);
 }
 
 html,
@@ -9,4 +10,76 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+
+/* Typography */
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+em {
+  font-style: normal;
+}
+
+/* Layout */
+.max-width-wrapper {
+  max-width: 800px;
+  margin: auto;
+}
+
+header,
+main {
+  width: 100%;
+}
+
+/* main colors */
+body, main {
+  background-color: hsl(0deg, 0%, 40%);
+}
+
+header {
+  background-color: hsl(0deg, 100%, 100%);
+}
+
+/* Header */
+.intro-chunk   {
+  margin: 0px;
+  padding: 96px 24px 48px;
+  width: 512px;
+
+  font-size: 1.25em;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 48px;
+}
+
+
+
+/* Main */ 
+main {
+  width: 100%;
+  padding-top: 64px;
+  padding-bottom: 58px;
+  border-top: 8px solid hsl(0deg, 0%, 60%)
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  padding: 8px 24px;
+  font-size: 1.25em;
+  line-height: 1.5;
+}
+
+.indented-heading {
+  font-size: 1.5rem;
+  width: fit-content;
+  margin: 0px;
+  margin-left: -32px;
+  padding: 16px 32px;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+}
+
